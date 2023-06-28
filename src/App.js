@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Listado from './components/Listado';
+import Detail from './components/Detail';
+import Login from './components/Login';
+import './index.css';
+import './App.css'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <h1 className='title'>Mis Heroes Favoritos</h1>
+      <p>Aqui encontaras el mejor top, de los mejores Heroes de mi historia</p>
+      
+      
+
+
+      <Listado />
+      <Detail />
+      <image />
+      <Login />
     </div>
   );
 }
 
 export default App;
+
