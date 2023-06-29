@@ -9,8 +9,6 @@ const Detail = (props) => {
       <img src={props.image} alt="" />
       
     
-      
-      {/* Mostrar más detalles del ítem */}
     </div>
   );
 }

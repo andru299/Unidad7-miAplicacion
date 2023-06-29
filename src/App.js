@@ -12,9 +12,7 @@ const App = () => {
       <h1 className='title'>Mis Heroes Favoritos</h1>
       <p>Aqui encontaras el mejor top, de los mejores Heroes de mi historia</p>
       
-      
-
-
+    
       <Listado />
       <Detail />
       <image />
